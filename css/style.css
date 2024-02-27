@@ -1,0 +1,49 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* /reset */
+
+/* utilities */
+
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: lightseagreen;
+}
+
+.row{
+    width: 100%;
+}
+
+.caselle{
+    height: calc(100vh - 80px);
+    background-color: black;
+    overflow-y: auto;
+    padding: 80px 120px;
+}
+
+.azioni{
+    height: 80px;
+    background-color: lightslategray;
+}
+
+.utente{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px;
+
+}
+
+.nome-utente{
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+    color: white;
+    background-color: rgba(0,  0, 0, 0.3);
+}
